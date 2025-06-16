@@ -1,0 +1,53 @@
+body     {font-family: Centaur, "Century Gothic", Arial;
+    font-size: 14pt;
+         .container{
+    transition: transform .5s;
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px
+}}
+
+p        {margin-left: 10pt;
+    margin-right: 10pt;}
+
+a        {text-decoration: none;
+    color: black;}
+
+img      {border-color: transparent;}
+
+table    {width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #e30a0a;
+    border-style: ridge;
+    border-width: 10px;}
+
+.menu    {text-align: center;
+    width: 60%;}
+
+.menuicon {width: 23%;}
+
+.menupipe {width: 1%;}
+
+th        {color: white;
+     background-color: #757775;}
+
+tr.stripe {background-color: #d8d8ce;}
+
+td.bolder {font-weight: bold;}
+
+caption   {caption-side: bottom;
+     font-style: italic;}
+}
+@media screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    .listProduct{
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
